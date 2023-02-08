@@ -9,7 +9,7 @@ class ListNode {
 }
 
 
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   let sum = 0;
   let current = new ListNode(0, null);
   let result = current
